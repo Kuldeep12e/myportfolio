@@ -24,7 +24,7 @@ const about = () => {
         <meta name="author" content="Kuldeep Yadav" />
         <meta
           name="description"
-          content="This is Kuldeep Yadav portfolio"
+          content="This is Kuldeep Yadav's portfolio"
         />
       </Head>
       <TransitionEffect />
@@ -43,11 +43,11 @@ const about = () => {
                 Love coding for fun!
               </p>
               <p className="my-4 font-medium">
-                Hello, I'm Kuldeep Yadav, an aspiring full-stack developer with a deep interest in crafting engaging digital experiences. Eager to learn and grow, I am committed to mastering web development skills and contributing to impactful projects. Let's embark on this journey of innovation together!
+                Hello, I am Kuldeep Yadav, an aspiring full-stack developer with a deep interest in crafting engaging digital experiences. Eager to learn and grow, I am committed to mastering web development skills and contributing to impactful projects. Lets embark on this journey of innovation together!
               </p>
             </div>
 
-            {/* profile picture */}
+            {/* Profile picture */}
             <div
               className="col-span-3 relative rounded-2xl border-2 border-solid border-dark bg-light p-8 w-72 h-84
             dark:bg-dark dark:border-light"
@@ -82,7 +82,7 @@ const about = () => {
               {/* Learning */}
               <div className="flex flex-col items-end justify-center">
                 <span className="inline-block text-2xl font-bold text-dark/75 dark:text-light/75">
-                  I&apos;m Learning
+                  I am Learning
                 </span>
                 <h2 className="text-xl text-dark font-medium flex items-center my-2 dark:text-light">
                   TypeScript

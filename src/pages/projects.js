@@ -162,7 +162,7 @@ const projects = () => {
                 title="React Tailwind CSS Portfolio"
                 summary="React Tailwind CSS"
                 link=""
-                github=""
+                github="https://github.com/Kuldeep12e/myportfolio"
                 img={nextPortfolio}
                 type="&hearts;&nbsp;Portfolio Website"
               />
