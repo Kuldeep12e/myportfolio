@@ -161,7 +161,7 @@ const projects = () => {
               <FeaturedProject
                 title="React Tailwind CSS Portfolio"
                 summary="React Tailwind CSS"
-                link=""
+                link="https://kuldeepyadav-portfolio.vercel.app/"
                 github="https://github.com/Kuldeep12e/myportfolio"
                 img={nextPortfolio}
                 type="&hearts;&nbsp;Portfolio Website"
