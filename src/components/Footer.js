@@ -15,7 +15,7 @@ const Footer = () => {
           <span className="text-red-500 text-2xl px-1">&hearts;</span>
           by&nbsp;
           <Link
-            href="https://github.com/michaeli524"
+            href="https://github.com/Kuldeep12e"
             className="underline underline-offset-2"
             target={"_blank"}
           >
