@@ -26,7 +26,7 @@ const Logo = () => {
           },
         }}
       >
-        ML
+        KY
       </MotionLink>
     </div>
   );
