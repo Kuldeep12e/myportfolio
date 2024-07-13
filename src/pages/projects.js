@@ -12,6 +12,7 @@ const blogSystem = "/images/projects/react-node-blog-system.png";
 const reactAdmin = "/images/projects/react-admin-dashboard.png";
 const fashion =  "/images/projects/fashion.png";
 const blockchain = "/images/projects/blockchain.png";
+const projimg  = "/images/projects/this.png"
 
 const FramerImage = motion(Image);
 
@@ -174,7 +175,7 @@ const projects = () => {
                 summary="ReactJs ,Tailwind CSS , NodeJs, Mongodb ,Express Js"
                 link=""
                 github=""
-                img={blogSystem}
+                img={projimg}
                 type="Full Stack Project"
               />
             </div>
