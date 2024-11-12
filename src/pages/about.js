@@ -33,7 +33,7 @@ const about = () => {
           {/* Title */}
           <Animated text="Passion Fuels Purpose!" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           {/* Text */}
-          <div className="grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-8 gap-16 sm:gap-4 sm:my-2 sm:ml-8">
+          <div className="grid w-full grid-cols-8 sm:grid-cols-2 lg:grid-cols-8 gap-16 sm:gap-4 sm:my-2 sm:ml-8">
             {/* Biography */}
             <div className="col-span-3 flex flex-col items-center justify-center xl:col-span-4 md:order-1">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75  ">
