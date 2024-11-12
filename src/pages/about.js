@@ -33,7 +33,7 @@ const about = () => {
           {/* Title */}
           <Animated text="Passion Fuels Purpose!" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           {/* Text */}
-          <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
+          <div className="grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-8 gap-16 sm:gap-4 sm:my-2 sm:ml-8">
             {/* Biography */}
             <div className="col-span-3 flex flex-col items-center justify-center xl:col-span-4 md:order-1">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75  ">
@@ -42,7 +42,7 @@ const about = () => {
               <p className="font-medium">
                 Love coding for fun!
               </p>
-              <p className="my-4 font ">
+              <p className="my-4 font-medium ">
                 Hello, I am Kuldeep Yadav, an aspiring full-stack developer with a deep interest in crafting engaging digital experiences. Eager to learn and grow, I am committed to mastering web development skills and contributing to impactful projects. Lets embark on this journey of innovation together!
               </p>
             </div>
@@ -50,7 +50,7 @@ const about = () => {
             {/* Profile picture */}
             <div
               className="col-span-3 relative rounded-2xl border-2 border-solid border-dark bg-light p-8 w-72 h-84
-            dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8"
+            dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8 "
             >
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-light" />
               <Image
