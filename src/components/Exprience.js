@@ -8,8 +8,9 @@ const Details = ({ position, school, schoolLink, time, address }) => {
     <li ref={ref} className="my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between">
       <Lilcon reference = {ref}/>
       <div>
-        <h3 className="capitalize font-bold text-2xl">
+        <h3 className="capitalize font-bold text-2xl sm:text-xl">
           {position}&nbsp;
+          <br/>
           <a
             href={schoolLink}
             target="_blank"
