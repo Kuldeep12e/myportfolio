@@ -33,16 +33,16 @@ const about = () => {
           {/* Title */}
           <Animated text="Passion Fuels Purpose!" className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8" />
           {/* Text */}
-          <div className="grid w-full grid-cols-8 sm:grid-cols-2 lg:grid-cols-8 gap-16 sm:gap-4 sm:my-2 sm:ml-8">
+          <div className="grid w-full grid-cols-8 sm:grid-cols-2 lg:grid-cols-8 gap-16 sm:gap-4 sm:my-2">
             {/* Biography */}
-            <div className="col-span-3 flex flex-col items-center justify-center xl:col-span-4 md:order-1">
+            <div className="col-span-3 flex flex-col items-center justify-center xl:col-span-4 md:order-1 sm:ml-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75  ">
                 Biography
               </h2>
               <p className="font-medium">
                 Love coding for fun!
               </p>
-              <p className="my-4 font-medium ">
+              <p className="my-4 font-medium text-center ">
                 Hello, I am Kuldeep Yadav, an aspiring full-stack developer with a deep interest in crafting engaging digital experiences. Eager to learn and grow, I am committed to mastering web development skills and contributing to impactful projects. Lets embark on this journey of innovation together!
               </p>
             </div>
@@ -67,7 +67,7 @@ const about = () => {
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 cl:flex-row xl:items-center md:order-3">
               {/* Tech Stacks */}
               <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-2xl font-bold text-dark/75 dark:text-light/75 md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-2xl font-bold text-dark/75 dark:text-light/75 md:text-6xl sm:mt-8 sm:text-5xl xs:text-4xl">
                   My Tech Stack
                 </span>
                 <h2 className="text-xl text-dark font-medium flex items-center my-2 dark:text-light">
@@ -81,18 +81,18 @@ const about = () => {
               </div>
               {/* Learning */}
               <div className="flex flex-col items-end justify-center">
-                <span className="inline-block text-2xl font-bold text-dark/75 dark:text-light/75 md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-2xl font-bold text-dark/75 sm:mt-8 dark:text-light/75 md:text-6xl sm:text-5xl xs:text-4xl">
                   I am Learning
                 </span>
-                <h2 className="text-xl text-dark font-medium flex items-center my-2 dark:text-light">
+                <h2 className="text-xl text-dark font-medium flex items-center my-2 sm:mr-10 dark:text-light">
                   TypeScript
-                  <TsIcon className="ml-3 w-[30px] h-[30px]" />
+                  <TsIcon className="ml-3 w-[30px] h-[30px] " />
                 </h2>
-                <h2 className="text-xl text-dark font-medium flex items-center mb-2 dark:text-light">
+                <h2 className="text-xl text-dark font-medium flex items-center mb-2 sm:mr-10  dark:text-light">
                   NodeJs
                   <NextIcon className="ml-3 w-[30px] h-[30px]" />
                 </h2>
-                <h2 className="text-xl text-dark font-medium flex items-center dark:text-light">
+                <h2 className="text-xl text-dark font-medium flex items-center sm:mr-10  dark:text-light">
                   TailwindCSS
                   <TailwindCSS className="ml-3 w-[30px] h-[30px]" />
                 </h2>

@@ -35,16 +35,16 @@ const Experience = () => {
   });
 
   return (
-    <div className="my-64">
-      <h2 className="font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4px">
+    <div className="my-64 sm:mt-16">
+      <h2 className="font-bold text-8xl mb-32 sm:mb-16 w-full text-center md:text-6xl xs:text-4px">
         Education
       </h2>
-      <div ref={ref} className="w-[75%] mx-auto relative">
+      <div ref={ref} className="w-[75%] sm:w-[100%] mx-auto relative">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[6px] h-full bg-dark origin-top dark:bg-light"
+          className="absolute left-9 top-0 w-[6px]  h-full bg-dark origin-top dark:bg-light"
         />
-        <ul className="w-full flex flex-col items-start justify-between ml-4">
+        <ul className="w-full flex flex-col items-start justify-between ml-4 sm:ml-10 ">
           <Details
             position="BE-CSE"
             school="Chandigarh University"
