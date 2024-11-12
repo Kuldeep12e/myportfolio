@@ -6,7 +6,7 @@ import Link from "next/link";
 import { DownloadIcon } from "@/components/Icons";
 import Hireme from "@/components/Hireme";
 import TransitionEffect from "@/components/TransitionEffect";
-const profilePic = "/images/profile/developer-pic-1.png";
+const profilePic = "/images/profile/developer-pic-1.jpg";
 import {projects} from "@/pages/projects";
 
 

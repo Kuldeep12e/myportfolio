@@ -36,13 +36,13 @@ const about = () => {
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             {/* Biography */}
             <div className="col-span-3 flex flex-col items-center justify-center xl:col-span-4 md:order-1">
-              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75 ">
+              <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75  ">
                 Biography
               </h2>
               <p className="font-medium">
                 Love coding for fun!
               </p>
-              <p className="my-4 font-medium ">
+              <p className="my-4 font ">
                 Hello, I am Kuldeep Yadav, an aspiring full-stack developer with a deep interest in crafting engaging digital experiences. Eager to learn and grow, I am committed to mastering web development skills and contributing to impactful projects. Lets embark on this journey of innovation together!
               </p>
             </div>
@@ -57,8 +57,8 @@ const about = () => {
                 src={profilePic}
                 alt="Kuldeep"
                 className="rounded-md"
-                width={240}
-                height={360}
+                width={300}  
+                height={450}  
                 priority={true}
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
